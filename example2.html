@@ -7,7 +7,9 @@
 
   <button id="white_rabbit">Click to see White Rabbit</button>
 
-  <img src="http://images4.wikia.nocookie.net/__cb20110115001045/spongebobandfriendsadventures/images/f/f7/Picture1.gif">
+  <br>
+
+  <img src="http://images4.wikia.nocookie.net/__cb20110115001045/spongebobandfriendsadventures/images/f/f7/Picture1.gif" style="top: 40px">
 
 
 
@@ -21,7 +23,7 @@ $(document).ready(function() {
 
   $("img").hide();
   $("#white_rabbit").click( function() {
-    $("img").toggle("slow");
+    $("img").fadeToggle()("slow");
   });
 
 });//end doc ready
