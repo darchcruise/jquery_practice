@@ -1,25 +1,8 @@
-#one {
+.pic {
   float: left;
   border: solid;
   margin: 5px;
-}
-
-#two {
-  float: left;
-  border: solid;
-  margin: 5px;
-}
-
-#three {
-  float: left;
-  border: solid;
-  margin: 5px;
-}
-
-#four {
-  float: left;
-  border: solid;
-  margin: 5px;
+  text-align: center;
 }
 
 #main{
