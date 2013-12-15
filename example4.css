@@ -1,12 +1,34 @@
 #one {
   float: left;
+  border: solid;
+  margin: 5px;
 }
 
 #two {
   float: left;
+  border: solid;
+  margin: 5px;
 }
 
 #three {
   float: left;
+  border: solid;
+  margin: 5px;
 }
 
+#four {
+  float: left;
+  border: solid;
+  margin: 5px;
+}
+
+#main{
+  background-color: grey;
+  height: 500px;
+}
+
+#header {
+  width: 100%;
+  height: 50px;
+  text-align: center;
+}
