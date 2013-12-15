@@ -14,6 +14,9 @@
     <div class="pic"><img src="http://www.ironrealms.com/sites/default/files/midkemia_dwarf_large.jpg" alt="Drawf" height="200" width="200"></div>
   </div>
 
+  <br>
+  <button id="btn_remove">Remove</button>
+
 
 <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
 <script src="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css"></script>
@@ -22,12 +25,19 @@
 
 <script>
 $(document).ready(function() {
+   // alert('hello');
   $('.pic').click(function(){
     var discount = Math.floor((Math.random()*5) + 5);
     var msg_discount = "<p>Your discount is " + discount + "%</p>";
     $(this).append(msg_discount);
   });
+    $('#btn_remove').click(function(){
+      $('p').remove();
+    })
 });//end doc ready
+
+
+
 </script>
 
 </body>
