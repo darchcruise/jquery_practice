@@ -1,0 +1,29 @@
+<html>
+<head>
+  <title></title>
+  <link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+
+<body>
+
+  <div id="clickme">Show me the pic of the day</div>
+  <div id="pic"><img src="http://userserve-ak.last.fm/serve/_/55870193/3rd+Bass+bq.jpg">
+  </div>
+
+
+<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css"></script>
+<script src="http:///code.jquery.com/jquery-1.9.1.js"></script>
+<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+
+<script>
+$(document).ready(function() {
+  $('#clickme').click(function(){
+        // $('#pic').slideToggle("slow");
+        $('#pic').slideDown("slow");
+  });
+});//end doc ready
+</script>
+
+</body>
+</html>
